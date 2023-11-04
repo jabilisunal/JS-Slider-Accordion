@@ -1,0 +1,36 @@
+#slider {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+#slider .images-area .item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#slider .images-area .item img {
+  width: 100%;
+  height: 100%;
+}
+#slider .icons .icon {
+  position: absolute;
+  font-size: 22px;
+  color: white;
+  top: 45%;
+}
+#slider .icons .left {
+  left: 30px;
+}
+#slider .icons .right {
+  right: 20px;
+}
+
+.item {
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+  transition: opacity 1s;
+}/*# sourceMappingURL=style.css.map */

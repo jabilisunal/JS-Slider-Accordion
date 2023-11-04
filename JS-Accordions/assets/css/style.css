@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#accordion{
+    margin: 0 auto;
+    width: 600px;
+
+}
+#accordion .contentBox{
+
+}
+#accordion .contentBox .label{
+    background-color: aqua;
+    padding: 20px;
+    font-size: 22px;
+}
+
+#accordion .contentBox .content{
+    background-color: hotpink;
+    color: black;
+    height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+#accordion .contentBox .content p{
+    padding: 15px;
+    font-size: 22px;
+}
+
+#accordion .contentBox.active  .content {
+    height: 150px ;
+}
